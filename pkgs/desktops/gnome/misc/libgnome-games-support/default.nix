@@ -14,11 +14,11 @@
 
 stdenv.mkDerivation rec {
   pname = "libgnome-games-support";
-  version = "1.8.2";
+  version = "2.0.beta.2";
 
   src = fetchurl {
     url = "mirror://gnome/sources/${pname}/${lib.versions.majorMinor version}/${pname}-${version}.tar.xz";
-    sha256 = "KENGBKewOHMawCMXMTiP8QT1ZbsjMMwk54zaBM/T730=";
+    sha256 = "jB7lF4q8wppOgUJnuMXvo6DvmwkxbAAgCQ4Ex6OYxNw=";
   };
 
   nativeBuildInputs = [
