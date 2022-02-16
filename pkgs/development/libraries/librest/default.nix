@@ -10,11 +10,11 @@
 
 stdenv.mkDerivation rec {
   pname = "rest";
-  version = "0.8.1";
+  version = "0.9.0";
 
   src = fetchurl {
     url = "mirror://gnome/sources/${pname}/${lib.versions.majorMinor version}/${pname}-${version}.tar.xz";
-    sha256 = "0513aad38e5d3cedd4ae3c551634e3be1b9baaa79775e53b2dba9456f15b01c9";
+    sha256 = "hbK8k0ESgTlTm1PuU/BTMxC8ljkv1kWGOgQEELgevmY=";
   };
 
   nativeBuildInputs = [
