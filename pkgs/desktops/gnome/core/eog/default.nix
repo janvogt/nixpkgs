@@ -29,11 +29,11 @@
 
 stdenv.mkDerivation rec {
   pname = "eog";
-  version = "41.1";
+  version = "42.beta";
 
   src = fetchurl {
     url = "mirror://gnome/sources/${pname}/${lib.versions.major version}/${pname}-${version}.tar.xz";
-    sha256 = "sha256-huG5ujnaz3QiavpFermDtBJTuJ9he/VBOcrQiS0C2Kk=";
+    sha256 = "sha256-NeArN4a67hTUfPIH23+7krbIcTZEt80UZTcu5KKRuBo=";
   };
 
   patches = [
